@@ -26,11 +26,5 @@ int main(){
         cout<<"number of positve elements in the ad array is "<<count1<<endl;
         cout<<"number of negative elements in the 2d array is "<<count2;
 
-
-
-
-
-
-
     return 0;
 }

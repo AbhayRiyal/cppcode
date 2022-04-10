@@ -11,6 +11,8 @@ int main(){
         cout<<"number is a multiple of 7";
     }else if(n%3==0){
         cout<<"number is a mutiple of 3";
+    }else{
+        cout<<"number is not "
     }
 
  return 0;

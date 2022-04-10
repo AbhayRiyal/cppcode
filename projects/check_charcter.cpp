@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
     char character;
-    cout<<"enter your charcter"<<endl;
+    cout<<"enter your character"<<endl;
     cin>>character;
     int a=character;
     if (a>=65 && a<=90){
@@ -13,7 +13,7 @@ int main(){
     }else{
         cout<<"invalid character";
     }
- //first comment 
+
 
 
 
