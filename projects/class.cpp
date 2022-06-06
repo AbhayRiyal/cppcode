@@ -3,15 +3,18 @@ using namespace std;
 
 class rectangle
 {
-    public:
+    private:
     int length,breadth;
     public:
-    
-    rectangle(int length, int breadth){
-        this->length=length;
-        (*this).breadth=breadth;
+    rectangle(){
+        length=10;
+        breadth=20;   
     }
-    
+
+    rectangle(int l, int b){
+        length=l;
+        breadth=b;
+    }    
     int area(){
         int area;
         area=length*breadth;
@@ -22,18 +25,13 @@ class rectangle
 
 int main(){
     int x,y;
-    
-    cout<<"enter the length and breath of rectangle (length!=breadth) ";
+    cout<<"enter the length and breadth of rectangle ";
     cin>>x>>y;
-
+    rectangle a;
     rectangle b(x,y);
 
-    
-    rectangle *ptr=&b;
-    cout<<"address of the object b "<<ptr<<endl;
-    cout<<"area of rectangle b with ptr "<<(*ptr).area()<<endl;
-    cout<<"area of rectangle b with ptr "<<ptr->area()<<endl;
-
+    cout<<"area with default constructors "<<a.area()<<endl;
+    cout<<"area with parameterized constructor "<<b.area();
 
     
     

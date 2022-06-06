@@ -8,7 +8,7 @@ int main(){
     cin>>a2;
     cin>>a3;
     if(a1+a2+a3==180){
-        cout<<"it is valid triangle";
+        cout<<"it is avlid triangle";
     }else{
         cout<<"its not valid triangle";
     }
